@@ -12,6 +12,7 @@ sourceSets {
 kotlin.jvmToolchain(8)
 
 kotlin {
+  linuxArm64()
   mingwX86()
 
   sourceSets {
